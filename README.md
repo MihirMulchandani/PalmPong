@@ -82,6 +82,12 @@ but the translation of noisy, real-world input into something playable.
 
 ---
 
+<p align="center">
+  <a href="https://palm-pong.vercel.app">
+    <img width="232" height="56" alt="Screenshot from 2026-01-12 00-41-21" src="https://github.com/user-attachments/assets/defb5d48-d3f5-4b88-947c-e7d14dd1df13" />
+
+  </a>
+</p>
 
 
 © MihirMulchandani
