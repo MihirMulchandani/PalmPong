@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: radial-gradient(circle at center, #0b0b14, #020205);
+  overflow: hidden;
+}
+
+#app {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+/* Webcam feed */
+#webcam {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+  width: 220px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 2px solid #ffffff; 
+  opacity: 0.9;
+  z-index: 2;
+}
+
+
+/* Game canvas */
+#gameCanvas {
+  position: absolute;
+  inset: 0;
+}
+
+/*HUD */
+#hud {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  color: #ffffff; /* WHITE */
+  z-index: 2;
+}
+
+#title {
+  font-size: 28px;
+  letter-spacing: 2px;
+  color: #ffffff; /* WHITE */
+}
+
+#score {
+  font-size: 48px;
+  margin-top: 4px;
+  color: #ffffff; /* WHITE */
+}
+
+/* Overlay */
+#overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 3;
+  pointer-events: auto; /* ALLOW CLICKS */
+}
+
+
+#overlayText {
+  font-size: 28px;
+  color: #ffffff;
+  text-align: center;
+}
