@@ -88,7 +88,7 @@ function update() {
   if (!running || gameOver) return;
 
   // Paddle smoothing
-  paddle.y += (paddle.targetY - paddle.y) * 0.3;
+  paddle.y += (paddle.targetY - paddle.y) * 0.5;
   paddle.y = Math.max(
     0,
     Math.min(canvas.height - paddle.height, paddle.y)
