@@ -1,7 +1,8 @@
 <div align="center">
   <h1>PalmPong</h1>
+  <img width="1919" height="956" alt="Screenshot from 2026-01-12 00-40-47" src="https://github.com/user-attachments/assets/1d637848-85e2-4b09-820e-755ad533e50e" />
+
 </div>
-<img width="1920" height="1080" alt="Screenshot from 2026-01-12 00-39-22" src="https://github.com/user-attachments/assets/7e252863-0795-4c16-b967-17f03675a624" />
 
 
 PalmPong is a gesture-controlled Pong game built around a single idea:
